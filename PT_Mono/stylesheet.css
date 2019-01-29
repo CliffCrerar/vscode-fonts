@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PT_Mono';
+    src: url('./PTMono-Regular.eot');
+    src: local('./PT Mono'), local('PTMono-Regular'),
+        url('./PTMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./PTMono-Regular.woff2') format('woff2'),
+        url('./PTMono-Regular.woff') format('woff'),
+        url('./PTMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

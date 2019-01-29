@@ -1,7 +1,19 @@
-@import url('./Cutive_Mono/CutiveMono-Regular.ttf');
-@import url('./Major_Mono_Display/MajorMonoDisplay-Regular.ttf');
-@import url('./Nova_Mono/NovaMono.ttf');
-@import url('./Overpass_Mono/OverpassMono-Regular.ttf');
-@import url('./PT_Mono/PTM55FT.ttf');
-@import url('./Source_Code_Pro/');
-@import url('./Space_Mono/');
+@import url('./PT_Mono/stylesheet.css');
+
+:root{
+	--expl:PT_Mono; /* EXPLORER FONT */ 
+	--edit:PT_Mono; /* EDITOR FONT   */
+}
+
+
+/*
+ I decided on the Brush Script MT cursive font for now. Works better for me than FlottFlott.
+ 	.monaco-grid-branch-node {
+		
+	}
+*/
+
+	
+	.view-lines {
+		font-family: var(--edit) !important;
+	}
