@@ -1,10 +1,15 @@
-@import url('./PT_Mono/stylesheet.css');
+/*@import url('./PT_Mono/stylesheet.css');*/
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 :root{
+	--edit:Russo One; /* EDITOR FONT   */
 	--expl:PT_Mono; /* EXPLORER FONT */ 
-	--edit:PT_Mono; /* EDITOR FONT   */
 }
 
+			.f1{
+font-family: var(--edit) !important;
+			}
 
 /*
  I decided on the Brush Script MT cursive font for now. Works better for me than FlottFlott.
@@ -13,7 +18,7 @@
 	}
 */
 
-	
-	.view-lines {
-		font-family: var(--edit) !important;
-	}
+
+.view-lines {
+  font-family: var(--edit) !important;
+}
